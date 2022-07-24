@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "wite",
+    "build": "wite build",
+    "preview": "wite preview --port 4173"
+  },
+  "dependencies": {
+    "kdu": "^3.2.37-alpha.1"
+  },
+  "devDependencies": {
+    "@witejs/plugin-kdu": "^2.3.3-alpha.0",
+    "wite": "^2.9.14-alpha.0"
+  }
+}

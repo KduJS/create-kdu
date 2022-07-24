@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@kdujs/eslint-config-prettier": "^7.0.0-rc.0",
+    "@kdujs/eslint-config-typescript": "^11.0.0-rc.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-kdu": "^8.7.1-rc.0",
+    "prettier": "^2.5.1"
+  }
+}

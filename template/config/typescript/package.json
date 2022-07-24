@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "run-p type-check build-only",
+    "build-only": "wite build",
+    "type-check": "kdu-tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.41",
+    "kdu-tsc": "^0.38.5-beta.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~4.7.4"
+  }
+}

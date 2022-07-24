@@ -1,0 +1,8 @@
+{
+  "extends": "@kdujs/tsconfig/tsconfig.node.json",
+  "include": ["wite.config.*"],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["node"]
+  }
+}

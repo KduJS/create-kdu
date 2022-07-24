@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@kdujs/tsconfig": "^0.1.3"
+  }
+}

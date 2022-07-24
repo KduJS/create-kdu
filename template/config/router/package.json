@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "kdu": "^3.2.37-alpha.1",
+    "kdu-router": "^4.0.16-rc.0"
+  }
+}

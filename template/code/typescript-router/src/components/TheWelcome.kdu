@@ -1,0 +1,37 @@
+<script setup lang="ts">
+import WelcomeItem from './WelcomeItem.kdu'
+import DocumentationIcon from './icons/IconDocumentation.kdu'
+import ToolingIcon from './icons/IconTooling.kdu'
+import EcosystemIcon from './icons/IconEcosystem.kdu'
+import CommunityIcon from './icons/IconCommunity.kdu'
+import SupportIcon from './icons/IconSupport.kdu'
+</script>
+
+<template>
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>Documentation</template>
+
+    Kdu’s
+    <a target="_blank" href="https://kdu-js.web.app/">official documentation</a>
+    provides you with all information you need to get started.
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <ToolingIcon />
+    </template>
+    <template #heading>Tooling</template>
+
+    This project is served and bundled with
+    <a href="https://witejs.web.app/guide/features.html" target="_blank">Wite</a>. The recommended IDE
+    setup is <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> +
+    <a href="https://marketplace.visualstudio.com/items?itemName=Kdu-Code.kocan" target="_blank">Kocan</a>.
+
+    <br />
+
+    More instructions are available in <code>README.md</code>.
+  </WelcomeItem>
+</template>
