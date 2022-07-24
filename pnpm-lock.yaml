@@ -32,150 +32,6 @@ importers:
       prompts: 2.4.2
       zx: 4.3.0
 
-  playground/default:
-    specifiers:
-      '@witejs/plugin-kdu': ^2.3.3-alpha.0
-      kdu: ^3.2.37-alpha.1
-      wite: ^2.9.9-alpha.0
-    dependencies:
-      kdu: 3.2.37-alpha.1
-    devDependencies:
-      '@witejs/plugin-kdu': 2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi
-      wite: 2.9.9-alpha.0
-
-  playground/jsx:
-    specifiers:
-      '@witejs/plugin-kdu': ^2.3.3-alpha.0
-      '@witejs/plugin-kdu-jsx': ^1.3.10-alpha.0
-      kdu: ^3.2.37-alpha.1
-      wite: ^2.9.9-alpha.0
-    dependencies:
-      kdu: 3.2.37-alpha.1
-    devDependencies:
-      '@witejs/plugin-kdu': 2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi
-      '@witejs/plugin-kdu-jsx': 1.3.10-alpha.0
-      wite: 2.9.9-alpha.0
-
-  playground/jsx-router:
-    specifiers:
-      '@witejs/plugin-kdu': ^2.3.3-alpha.0
-      '@witejs/plugin-kdu-jsx': ^1.3.10-alpha.0
-      kdu: ^3.2.37-alpha.1
-      kdu-router: ^4.0.16-rc.0
-      wite: ^2.9.9-alpha.0
-    dependencies:
-      kdu: 3.2.37-alpha.1
-      kdu-router: 4.0.16-rc.0_kdu@3.2.37-alpha.1
-    devDependencies:
-      '@witejs/plugin-kdu': 2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi
-      '@witejs/plugin-kdu-jsx': 1.3.10-alpha.0
-      wite: 2.9.9-alpha.0
-
-  playground/router:
-    specifiers:
-      '@witejs/plugin-kdu': ^2.3.3-alpha.0
-      kdu: ^3.2.37-alpha.1
-      kdu-router: ^4.0.16-rc.0
-      wite: ^2.9.9-alpha.0
-    dependencies:
-      kdu: 3.2.37-alpha.1
-      kdu-router: 4.0.16-rc.0_kdu@3.2.37-alpha.1
-    devDependencies:
-      '@witejs/plugin-kdu': 2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi
-      wite: 2.9.9-alpha.0
-
-  playground/typescript:
-    specifiers:
-      '@kdujs/tsconfig': ^0.1.3
-      '@types/node': ^16.11.36
-      '@witejs/plugin-kdu': ^2.3.3-alpha.0
-      kdu: ^3.2.37-alpha.1
-      kdu-tsc: ^0.38.5-beta.0
-      npm-run-all: ^4.1.5
-      typescript: ~4.7.2
-      wite: ^2.9.9-alpha.0
-    dependencies:
-      kdu: 3.2.37-alpha.1
-    devDependencies:
-      '@kdujs/tsconfig': 0.1.3_@types+node@16.11.45
-      '@types/node': 16.11.45
-      '@witejs/plugin-kdu': 2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi
-      kdu-tsc: 0.38.5-beta.0_typescript@4.7.4
-      npm-run-all: 4.1.5
-      typescript: 4.7.4
-      wite: 2.9.9-alpha.0
-
-  playground/typescript-jsx:
-    specifiers:
-      '@kdujs/tsconfig': ^0.1.3
-      '@types/node': ^16.11.36
-      '@witejs/plugin-kdu': ^2.3.3-alpha.0
-      '@witejs/plugin-kdu-jsx': ^1.3.10-alpha.0
-      kdu: ^3.2.37-alpha.1
-      kdu-tsc: ^0.38.5-beta.0
-      npm-run-all: ^4.1.5
-      typescript: ~4.7.2
-      wite: ^2.9.9-alpha.0
-    dependencies:
-      kdu: 3.2.37-alpha.1
-    devDependencies:
-      '@kdujs/tsconfig': 0.1.3_@types+node@16.11.45
-      '@types/node': 16.11.45
-      '@witejs/plugin-kdu': 2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi
-      '@witejs/plugin-kdu-jsx': 1.3.10-alpha.0
-      kdu-tsc: 0.38.5-beta.0_typescript@4.7.4
-      npm-run-all: 4.1.5
-      typescript: 4.7.4
-      wite: 2.9.9-alpha.0
-
-  playground/typescript-jsx-router:
-    specifiers:
-      '@kdujs/tsconfig': ^0.1.3
-      '@types/node': ^16.11.36
-      '@witejs/plugin-kdu': ^2.3.3-alpha.0
-      '@witejs/plugin-kdu-jsx': ^1.3.10-alpha.0
-      kdu: ^3.2.37-alpha.1
-      kdu-router: ^4.0.16-rc.0
-      kdu-tsc: ^0.38.5-beta.0
-      npm-run-all: ^4.1.5
-      typescript: ~4.7.2
-      wite: ^2.9.9-alpha.0
-    dependencies:
-      kdu: 3.2.37-alpha.1
-      kdu-router: 4.0.16-rc.0_kdu@3.2.37-alpha.1
-    devDependencies:
-      '@kdujs/tsconfig': 0.1.3_@types+node@16.11.45
-      '@types/node': 16.11.45
-      '@witejs/plugin-kdu': 2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi
-      '@witejs/plugin-kdu-jsx': 1.3.10-alpha.0
-      kdu-tsc: 0.38.5-beta.0_typescript@4.7.4
-      npm-run-all: 4.1.5
-      typescript: 4.7.4
-      wite: 2.9.9-alpha.0
-
-  playground/typescript-router:
-    specifiers:
-      '@kdujs/tsconfig': ^0.1.3
-      '@types/node': ^16.11.36
-      '@witejs/plugin-kdu': ^2.3.3-alpha.0
-      kdu: ^3.2.37-alpha.1
-      kdu-router: ^4.0.16-rc.0
-      kdu-tsc: ^0.38.5-beta.0
-      npm-run-all: ^4.1.5
-      typescript: ~4.7.2
-      wite: ^2.9.9-alpha.0
-    dependencies:
-      kdu: 3.2.37-alpha.1
-      kdu-router: 4.0.16-rc.0_kdu@3.2.37-alpha.1
-    devDependencies:
-      '@kdujs/tsconfig': 0.1.3_@types+node@16.11.45
-      '@types/node': 16.11.45
-      '@witejs/plugin-kdu': 2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi
-      kdu-tsc: 0.38.5-beta.0_typescript@4.7.4
-      npm-run-all: 4.1.5
-      typescript: 4.7.4
-      wite: 2.9.9-alpha.0
-
   template/base:
     specifiers:
       '@witejs/plugin-kdu': ^2.3.3-alpha.0
@@ -658,17 +514,6 @@ packages:
         optional: true
     dev: true
 
-  /@kdujs/tsconfig/0.1.3_@types+node@16.11.45:
-    resolution: {integrity: sha512-BC8FlVdxFTdd+8w3jZW5fIi9SMAuDHb2NUtPxnjqWafYpO0gUK07YUJ4z+v5f7ZU8RYrZCy26PWYRlEKiSaQFQ==}
-    peerDependencies:
-      '@types/node': '*'
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-    dependencies:
-      '@types/node': 16.11.45
-    dev: true
-
   /@kocan/code-gen/0.38.5-beta.0:
     resolution: {integrity: sha512-SCX4oLnQFyD2G8ozYaGO6C5NzFeaaGDk2TOyymAUscnAxFnEMX/xn31Aom0X2ugxvcOeTKHqBZExVJsZ29S0LQ==}
     dependencies:
@@ -797,17 +642,6 @@ packages:
     dependencies:
       kdu: 3.2.37-alpha.1
       wite: 2.9.14-alpha.0
-    dev: true
-
-  /@witejs/plugin-kdu/2.3.3-alpha.0_ndsu55z4dasmmo3sk6tyztisgi:
-    resolution: {integrity: sha512-bGC1fB+EK5ojapxjAiMXRTZtu0paeHiDjNvKkVoUYOBgvhut2DX7rIYHXyjBjRUJkhY3fgfWh9gIRvol4FmQ0g==}
-    engines: {node: '>=12.0.0'}
-    peerDependencies:
-      kdu: ^3.2.25-alpha.2
-      wite: ^2.5.10-alpha.2
-    dependencies:
-      kdu: 3.2.37-alpha.1
-      wite: 2.9.9-alpha.0
     dev: true
 
   /aggregate-error/3.1.0:
@@ -2508,30 +2342,6 @@ packages:
 
   /wite/2.9.14-alpha.0:
     resolution: {integrity: sha512-mbA85Fj8+jzSV8RHuZ7UQid6k0s8Jrh8P8ZHIk1Qdl3g/TEBp5p5aBCFh6E1slMjlnh9OqWCbskvjEKc0lkGZA==}
-    engines: {node: '>=12.2.0'}
-    hasBin: true
-    peerDependencies:
-      less: '*'
-      sass: '*'
-      stylus: '*'
-    peerDependenciesMeta:
-      less:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-    dependencies:
-      esbuild: 0.14.49
-      postcss: 8.4.14
-      resolve: 1.22.1
-      rollup: 2.77.0
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
-  /wite/2.9.9-alpha.0:
-    resolution: {integrity: sha512-7k2nvmZkUxcjLnJ4PwL/hP76HUJtzu3Ah4d5cALk8xxLLFMgVjf9sUkXGKDgylRuLbDQY5JpH43Hv1P2Ye6zog==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:

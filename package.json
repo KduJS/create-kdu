@@ -1,6 +1,6 @@
 {
   "name": "create-kdu",
-  "version": "3.2.2-beta.0",
+  "version": "3.2.2-beta.2",
   "description": "An easy way to start a Kdu project",
   "type": "module",
   "bin": {
