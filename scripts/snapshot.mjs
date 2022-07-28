@@ -58,7 +58,7 @@ for (const flags of flagCombinations) {
   
   console.log(`Removing previously generated project ${projectName}`)
   // await $`rm -rf ${projectName}` // using in Linux
-  await $`rd ${projectName}` // using in Windows
+  await $`rmdir /s ${projectName}` // using in Windows
 
   console.log(`Creating project ${projectName}`)
   await $`node ${[bin, projectName, ...flags.map((flag) => `--${flag}`), '--force']}`
